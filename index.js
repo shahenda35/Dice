@@ -79,7 +79,7 @@ btnHold.addEventListener("click", function () {
     document.getElementById(`score-${activePlayer}`).textContent =
       scores[activePlayer];
 
-    if (scores[activePlayer] >= 10) {
+    if (scores[activePlayer] >= 100) {
       //end game
       playing = false;
       ImgDice.classList.add("hidden");
